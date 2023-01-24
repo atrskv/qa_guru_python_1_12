@@ -24,7 +24,7 @@ def test_github_desktop(browser_management):
 
     # GIVEN:
     if browser.config.window_width == 393 or browser.config.window_width == 390:
-        pytest.skip(reason='Skipped mobile 393x851 screen resolution')
+        pytest.skip(reason='Skipped mobile screen resolution')
 
     browser.open('https://github.com/')
 
@@ -45,7 +45,7 @@ def test_github_mobile(browser_management):
 
     # GIVEN:
     if browser.config.window_width == 1920 or browser.config.window_width == 1024:
-        pytest.skip(reason='Skipped desktop 1920x1080 screen resolution')
+        pytest.skip(reason='Skipped desktop screen resolution')
 
     browser.open('https://github.com/')
 
