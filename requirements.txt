@@ -1,4 +1,4 @@
-pytest
-allure-pytest
-selene
-selenium
+pytest==7.2.1
+allure-pytest==2.12.0
+selene==2.0.0b16
+allure-pytest==2.12.0
